@@ -18,8 +18,10 @@ header,
 footer {
   background-color: #1f2937;
   color: #e5e7eb;
-  padding: 10%;
+  padding: 30px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 button {
@@ -34,36 +36,47 @@ h1 {
   color: #f9faf8;
   font-weight: 900;
 }
-
-.content-wrapper {
+h2{
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  font-weight: 900;
+}
+.wrapper {
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
 
-#subtext {
-  font-size: 16px;
-  font-weight: 100;
-}
-
-.content-block-one {
+.block-one {
   display: flex;
   font-size: 18px;
   color: #e5e7eb;
   background-color: #1f2937;
+  justify-content: space-between;
 }
+
 #block-one-image {
-  position: relative;
+  display: block;
   max-height: 200px;
   max-width: 300px;
 }
 
-.content-block-two {
-  font-size: 36px;
-  color: #1f2937;
-  font-weight: 900;
-  border: 2px #1f2937;
+#subtext-one {
+  font-size: 16px;
+  font-weight: 100;
 }
+
+.block-two {
+  display: flex;
+  justify-content: space-around;
+}
+
 #block-two-images {
   display: block;
   border-radius: 25px;
@@ -72,7 +85,14 @@ h1 {
   max-height: 200px;
 }
 
-.content-block-three {
+.subtext-two {
+  font-size: 16px;
+  font-weight: 100;
+  display: flex;
+  justify-content: space-around;
+}
+
+.block-three {
   font-size: 36px;
   color: #1f2937;
   font-weight: 300;
@@ -85,7 +105,7 @@ h1 {
   color: #1f2937;
   font-weight: 800;
 }
-.content-block-four {
+.block-four {
   display: flex;
   justify-content: center;
   align-items: center;
